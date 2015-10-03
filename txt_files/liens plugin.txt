@@ -1,0 +1,3 @@
+﻿liens cours jquery
+
+http://www.jqueryscript.net/animation/Book-Showcase-with-3D-Transform-Effects.html

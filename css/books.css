@@ -1,0 +1,48 @@
+
+.books{
+	display: inline-block;
+	width: 190px;
+	height: 260px;
+	position: absolute;
+	border: 1px solid #CCC;
+	-webkit-perspective: 800;
+	-moz-perspective: 800;
+}
+
+.book1{
+	left: 200px;
+	width: 100%;
+	height:100%;
+	position: absolute;
+	-webkit-transition:-webkit-transform 1s;
+	-webkit-transition-style : preserve-3d;
+	-moz-transition:-webkit-transform 1s;
+	-moz-transform-style : preserve-3d;
+}
+
+.front, .back{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	-webkit-backface-visibility:hidden;
+	-moz-backface-visibility:hidden;
+}
+
+.book2{
+	left: 0;
+	width: 100%;
+	height:100%;
+	position: absolute;
+	-webkit-transition:-webkit-transform 1s;
+	-webkit-transition-style : preserve-3d;
+	-moz-transition:-webkit-transform 1s;
+	-moz-transition-style : preserve-3d;
+}
+
+.back{-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);} 
+
+.class.tourne{
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+}
